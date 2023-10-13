@@ -55,7 +55,7 @@ public class FoodTruckApp {
 				
 		}
 		
-		
+		sc.close();
 	}
 	public FoodTruck highestRating(FoodTruck [] arrayList) {
 		double maxRating = arrayList[0].getRating();
